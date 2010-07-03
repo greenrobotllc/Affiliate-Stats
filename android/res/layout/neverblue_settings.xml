@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:padding="10px">
+ 
+<TextView
+		android:textSize="10pt"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/settingsEmailLabel" android:text="API Key:"/><EditText android:layout_height="wrap_content" android:id="@+id/EmailText" android:layout_alignBaseline="@id/settingsEmailLabel" android:layout_alignParentRight="true" android:layout_width="120pt" android:inputType="text"></EditText>
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" android:text="Your Neverblue API key."/>
+
+
+
+
+<ImageView android:layout_gravity="center_horizontal" android:paddingTop="10px" android:paddingBottom="5px" android:layout_height="wrap_content" android:layout_width="fill_parent" android:src="@drawable/divider_horizontal_bright"/>
+
+
+
+
+
+</LinearLayout>

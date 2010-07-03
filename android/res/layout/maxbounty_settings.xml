@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:padding="10px">
+ 
+<TextView
+		android:textSize="10pt"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/settingsEmailLabel" android:text="Email:"/><EditText android:layout_height="wrap_content" android:id="@+id/EmailText" android:layout_alignBaseline="@id/settingsEmailLabel" android:layout_alignParentRight="true" android:inputType="textEmailAddress" android:layout_width="fill_parent"></EditText>
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" android:text="Your MaxBounty account email."/>
+
+<ImageView
+	android:layout_gravity="center_horizontal"
+	android:paddingTop="10px"
+	android:paddingBottom="5px"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent" android:src="@drawable/divider_horizontal_bright"/>
+
+<TextView android:textSize="10pt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password:" android:id="@+id/settingsPasswordLabel" />
+<EditText android:layout_height="wrap_content" android:layout_alignParentRight="true" android:inputType="textPassword" android:id="@+id/PasswordText" android:layout_alignBaseline="@id/settingsPasswordLabel" android:layout_width="fill_parent"></EditText><TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" android:text="Your MaxBounty account password."/><ImageView android:layout_gravity="center_horizontal" android:paddingTop="10px" android:paddingBottom="5px" android:layout_height="wrap_content" android:layout_width="fill_parent" android:src="@drawable/divider_horizontal_bright"/>
+
+
+
+
+
+</LinearLayout>

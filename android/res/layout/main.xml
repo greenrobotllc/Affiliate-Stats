@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10px">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="Welcome" android:textColor="#eeeeee" android:textSize="8pt" android:id="@+id/TopText"/><Button android:layout_height="wrap_content" android:id="@+id/TotalsButton" android:text="Totals" android:layout_width="fill_parent"></Button><ImageView android:layout_gravity="center_horizontal" android:paddingTop="10px" android:paddingBottom="5px" android:layout_height="wrap_content" android:layout_width="fill_parent" android:src="@drawable/divider_horizontal_dark"/><ListView android:id="@+id/android:list" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+</ListView><ImageView android:layout_gravity="center_horizontal" android:paddingTop="10px" android:paddingBottom="5px" android:layout_height="wrap_content" android:layout_width="fill_parent" android:src="@drawable/divider_horizontal_dark"/>
+
+
+
+</LinearLayout>

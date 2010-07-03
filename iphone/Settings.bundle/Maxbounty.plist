@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+		<array>
+			
+			 <dict>
+                       <key>Type</key>
+                       <string>PSToggleSwitchSpecifier</string>
+                       <key>Title</key>
+                       <string>Enabled:</string>
+                       <key>Key</key>
+                       <string>maxbountyEnabled</string>
+                       <key>DefaultValue</key>
+                       <false/>
+               </dict>
+
+
+			<dict>
+				<key>DefaultValue</key>
+				<string></string>
+				<key>Key</key>
+                <string>maxbountyEmail</string>
+                <key>Title</key>
+                <string>Email:</string>
+                <key>Type</key>
+                <string>PSTextFieldSpecifier</string>
+			</dict>
+			<dict>
+				<key>IsSecure</key>
+				<true/>
+				<key>DefaultValue</key>
+                <string></string>
+                <key>Key</key>
+                <string>maxbountyPassword</string>
+                <key>Title</key>
+                <string>Password:</string>
+                <key>Type</key>
+                <string>PSTextFieldSpecifier</string>
+			</dict>
+	</array>
+	<key>Title</key>
+	<string>Affiliate Stats</string>
+</dict>
+</plist>

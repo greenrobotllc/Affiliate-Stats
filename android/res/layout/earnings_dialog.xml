@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:padding="10px">
+ 
+<ImageView
+	android:layout_gravity="center_horizontal"
+	android:paddingTop="10px"
+	android:paddingBottom="5px"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent" android:src="@drawable/divider_horizontal_bright"/><RelativeLayout
+	android:gravity="center_vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TextView
+		android:textSize="10pt"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Today:" android:id="@+id/todayLabel"/>
+		
+		<TextView
+		android:textSize="10pt"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+	 android:layout_alignBaseline="@id/todayLabel"
+		android:text="$42.0" android:id="@+id/todayText"/>
+	
+
+
+</RelativeLayout>
+
+
+<ImageView
+	android:layout_gravity="center_horizontal"
+	android:paddingTop="10px"
+	android:paddingBottom="5px"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent" android:src="@drawable/divider_horizontal_bright"/>
+
+<RelativeLayout
+	android:gravity="center_vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	<TextView
+		android:textSize="10pt"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Yesterday:" android:id="@+id/yesterdayLabel"/>
+		<TextView android:textSize="10pt" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentRight="true" android:layout_alignBaseline="@id/yesterdayLabel" android:text="$42.0"
+		android:id="@+id/yesterdayText"/>
+	
+	
+</RelativeLayout>
+<ImageView android:layout_gravity="center_horizontal" android:paddingTop="10px" android:paddingBottom="5px" android:layout_height="wrap_content" android:layout_width="fill_parent" android:src="@drawable/divider_horizontal_bright"/>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<TextView android:textSize="10pt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="This month:" android:id="@+id/monthLabel"/>
+	<TextView android:textSize="10pt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"
+	android:layout_alignBaseline="@id/monthLabel" android:text="$42.0" android:id="@+id/monthText"/>
+	
+	
+</RelativeLayout><ImageView android:layout_gravity="center_horizontal" android:paddingTop="10px" android:paddingBottom="5px" android:layout_height="wrap_content" android:layout_width="fill_parent" android:src="@drawable/divider_horizontal_bright"/>
+
+
+</LinearLayout>

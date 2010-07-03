@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+		<array>
+			
+			<dict>
+				<key>DefaultValue</key>
+				<string></string>
+				<key>Key</key>
+                <string>clickboothAddCode</string>
+                <key>Title</key>
+                <string>Add Code (CDXXXX):</string>
+                <key>Type</key>
+                <string>PSTextFieldSpecifier</string>
+			</dict>
+			<dict>
+				<key>IsSecure</key>
+				<true/>
+				<key>DefaultValue</key>
+                <string></string>
+                <key>Key</key>
+                <string>clickboothPassword</string>
+                <key>Title</key>
+                <string>Password:</string>
+                <key>Type</key>
+                <string>PSTextFieldSpecifier</string>
+			</dict>
+	</array>
+	<key>Title</key>
+	<string>Affiliate Stats</string>
+</dict>
+</plist>
